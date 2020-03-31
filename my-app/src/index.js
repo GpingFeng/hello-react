@@ -335,11 +335,12 @@ class Calculator extends React.Component {
       scale: 'c'
     }
   }
-
+  // 输入摄氏度触发的方法
   handleCelsiusChange (temperature) {
     this.setState({scale: 'c', temperature})
   }
 
+  // 输入华氏度会触发的方法
   handleFahrenheitChange (temperature) {
     this.setState({scale: 'f', temperature})
   }
